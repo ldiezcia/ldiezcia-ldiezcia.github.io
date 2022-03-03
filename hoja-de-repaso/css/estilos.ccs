@@ -1,0 +1,15 @@
+    #contenedor{display: flex;
+               width:95%;
+               background-color: cornflowerblue;
+               height: 500px;
+               }
+
+    #blue{width: 30%;
+           height: 280px;
+           margin: 10%;
+           border: 20px solid purple;}
+
+    #crimson{width: 30%;
+              height: 280px;
+              margin: 10%;
+              border: 20px solid purple;}

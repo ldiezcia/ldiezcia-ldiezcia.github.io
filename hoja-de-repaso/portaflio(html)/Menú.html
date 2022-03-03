@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <title> Etiquetas META y Estilos </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Lucía">
+    <meta name="Description" content="repaso del HEAD y los estilos en cascada">
+    <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python">
+    <style>
+        *{margin: 0px;
+         padding: 0px;
+         text-decoration: none;
+         list-style: none;}
+
+        header{font-size: 200px;} 
+        nav{width: 100%;}
+        .nivel-1{ display:inline}
+        .nivel-2{ display:none}
+        div:hover{background-color: aqua; display:none} 
+    </style>
+    
+</head>
+<body>
+    <header> titulo</header>
+   
+    <nav>
+        <div class="menú-escritorio"></div>
+        <div class="menú-móvil"></div>
+           <ul class="nivel-1" > 
+              <li class="nivel-1">inicio<a link="#"></a>  </li>
+              <li class="nivel-1">práctica</li>
+                   <ul> 
+                       <li class="nivel-2">practica1</li>
+                       <li class="nivel-2">practica2</li>
+                       <li class="nivel-2">practica3</li>
+                     </ul>
+            </ul>   
+
+
+              <li class="nivel1">ayuda</li>
+      
+    </nav>
+    <main>
+        esto es mi main 
+        <i class="fas fa-dragon"></i>
+    </main>
+
+    
+
+</body>
+</html>
+
